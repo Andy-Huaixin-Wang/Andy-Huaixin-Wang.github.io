@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 192 512">
+    <style type="text/css">
+        :root {
+            --content-color: rgba(31, 31, 31, 1);
+        }
+        .first-fill {
+            color: var(--content-color);
+            opacity: 0.5;
+        }
+        .second-fill {
+            color: var(--content-color);
+            opacity: 0.7;
+        }
+    </style>
+    <g>
+        <path class="first-fill" fill="currentColor"
+            d="M184 256a19.41 19.41 0 0 1-5.29 13.37l-.8.8L43.64 399.08C30.49 411.71 8 402.76 8 384.91V256z">
+        </path>
+        <path class="second-fill" fill="currentColor"
+            d="M8 256V127.07c0-17.85 22.48-26.8 35.63-14.17L177.9 241.82c.27.26.54.53.8.81A19.39 19.39 0 0 1 184 256z">
+        </path>
+    </g>
+</svg>
