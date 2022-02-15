@@ -5,9 +5,9 @@
 
 ## 学习文档
 
-[Sass(en-us)](http://sass-lang.com/)
+[Sass(en-us)][]
 
-[Sass(zh-cn)](https://www.sass.hk/)
+[Sass(zh-cn)][]
 
 ## 语法格式
 

@@ -1,5 +1,30 @@
 {
+    "life": [],
     "note": [
+        {
+            "name": "SQL-Server-发布订阅",
+            "year": 2020,
+            "date": "02.12",
+            "type": "markdown",
+            "download": "",
+            "path": "/_posts/note/.markdown/2020-N01_SQL-Server-发布订阅/SQL-Server-发布订阅.md"
+        },
+        {
+            "name": "客户端与服务端加密解密",
+            "year": 2019,
+            "date": "11.20",
+            "type": "markdown",
+            "download": "",
+            "path": "/_posts/note/.markdown/2019-N04_客户端与服务端加密解密/客户端与服务端加密解密.md"
+        },
+        {
+            "name": "文件系统访问接口",
+            "year": 2019,
+            "date": "08.15",
+            "type": "markdown",
+            "download": "",
+            "path": "/_posts/note/.markdown/2019-N03_文件系统访问接口/文件系统访问接口.md"
+        },
         {
             "name": "怎么问一个好问题",
             "year": 2019,
@@ -107,12 +132,12 @@
     ],
     "temporary": [
         {
-            "name": "个人简历",
-            "year": 2017,
+            "name": "Curriculum-Vitae",
+            "year": 2021,
             "date": "09.01",
             "type": "html",
             "download": "",
-            "path": "/_posts/temporary/.html/2021-T01_个人简历/个人简历.html"
+            "path": "/_posts/temporary/.html/2021-T01_Curriculum-Vitae/15065AEFE6A6.html"
         }
     ]
 }

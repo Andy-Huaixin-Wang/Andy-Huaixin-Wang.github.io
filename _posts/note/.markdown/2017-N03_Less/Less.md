@@ -207,7 +207,7 @@ nav ul:extend(.inline all) {
   @media (min-width: 768px) {
   width: 600px;
   @media  (min-resolution: 192dpi) {
-    background-image: url(/source/images/retina2x.png);
+    background-image: url(/resources/images/retina2x.png);
   }
   }
   @media (min-width: 1280px) {
@@ -225,7 +225,7 @@ nav ul:extend(.inline all) {
 }
 @media (min-width: 768px) and (min-resolution: 192dpi) {
   .component {
-  background-image: url(/source/images/retina2x.png);
+  background-image: url(/resources/images/retina2x.png);
   }
 }
 @media (min-width: 1280px) {

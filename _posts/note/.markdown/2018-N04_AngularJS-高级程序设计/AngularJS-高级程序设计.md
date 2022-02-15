@@ -1136,7 +1136,7 @@ HTTP 方法所对应的常用操作
 
 ## 了解 HTML
 
-参见 [HTML5 权威指南](http://192.168.100.25:8001/2017-08/HTML5-权威指南/)
+参见 [HTML5 权威指南][]
 
 ## 了解 Bootstrap
 
@@ -1499,7 +1499,7 @@ Bootstrap 网格布局是易于使用的。你只需要对一个 div 元素使�
 
 # 第 5 章 JavaScript 基础
 
-参见 [HTML5 权威指南](http://192.168.100.25:8001/2017-08/HTML5-权威指南/)
+参见 [HTML5 权威指南][]
 
 ## 准备示例项目
 
@@ -15562,7 +15562,7 @@ invoke 方法的参数依次是：将被调用的函数，this 的值，以及�
 
 ## 为什么以及何时进行单元测试
 
-单元测试是隔离单个小功能并独立于应用程序和 AngularJS 的其他部分进行测试的技术。经过仔细应用，单元测试可以减少开发过程中稍后出现的软件缺陷数量，尤其是用户在部署应用程序之后遇到的缺陷 单元测试最适合具有强大设计技能并且对成品的用途和人员有充分了解的团队。如果没有这些技能和更广泛的视角，单元测试所创建的狭隘焦点可能过分强调单个砖块的质量，而忽略它们用于构建的房屋的整体结构。最糟糕的单元测试环境是我经常遇到的环境：拥有数千名开发人员的大型企业项目。在这些项目中，除了最广泛的术语之外，个别开发人员几乎无法了解总体目标，并让任意的快速单元测试成为质量的唯一衡量标准，而这就要求开发人员假设对外部输入的代码是错的。在这些情况下，单元测试结果为正确的项目在集成测试中将陷入困境，因为所有这些单独的假设都有所欠缺 即便如此，单元测试在仔细应用时也是一个强大的工具。只要确保你能够衡量它带来的好处，单元测试会使你明白许多开发人员天生将注意力倾向于内部，并且通过单元测试并不意味着这些单元在一起可以正常工作。使用单元测试作为更广泛的端到端测试策略的一部分。AngularJS 项目推荐使用 Protractor 进行端到端测试，可以从 https://github.com/angular/protractor 了解和下载
+单元测试是隔离单个小功能并独立于应用程序和 AngularJS 的其他部分进行测试的技术。经过仔细应用，单元测试可以减少开发过程中稍后出现的软件缺陷数量，尤其是用户在部署应用程序之后遇到的缺陷 单元测试最适合具有强大设计技能并且对成品的用途和人员有充分了解的团队。如果没有这些技能和更广泛的视角，单元测试所创建的狭隘焦点可能过分强调单个砖块的质量，而忽略它们用于构建的房屋的整体结构。最糟糕的单元测试环境是我经常遇到的环境：拥有数千名开发人员的大型企业项目。在这些项目中，除了最广泛的术语之外，个别开发人员几乎无法了解总体目标，并让任意的快速单元测试成为质量的唯一衡量标准，而这就要求开发人员假设对外部输入的代码是错的。在这些情况下，单元测试结果为正确的项目在集成测试中将陷入困境，因为所有这些单独的假设都有所欠缺 即便如此，单元测试在仔细应用时也是一个强大的工具。只要确保你能够衡量它带来的好处，单元测试会使你明白许多开发人员天生将注意力倾向于内部，并且通过单元测试并不意味着这些单元在一起可以正常工作。使用单元测试作为更广泛的端到端测试策略的一部分。AngularJS 项目推荐使用 Protractor 进行端到端测试，可以从 [Protractor][] 了解和下载
 
 ## 准备示例项目
 
@@ -16555,18 +16555,21 @@ describe("Service Tests", function () {
 仅仅为了一些变化，我使用 inject 函数来获取 Jasmine 中的服务对象。然后，我测试计数器值，增加它，然后再次测试。AngularJS 为单元测试提供的工具主要面向实例化服务，这使得它们简单易用
 
 <!-- links -->
+[HTML5 权威指南]: open?HTML5-权威指南
+[Protractor]: https://github.com/angular/protractor
 <!-- images -->
 [Logo]: /_posts/note/.markdown/2018-N04_AngularJS-高级程序设计/images/01.jpg "AngularJS-高级程序设计"
-[MVC模式的服务器端实现]: https://blog.irember.com/source/images/2018/07/AngularJS-高级程序设计/02.jpg "MVC模式的服务器端实现"
-[MVC模式的AngularJS实现]: https://blog.irember.com/source/images/2018/07/AngularJS-高级程序设计/03.jpg "MVC模式的AngularJS实现"
-[购物车基本流程]: https://blog.irember.com/source/images/2018/07/AngularJS-高级程序设计/04.jpg "购物车基本流程"
-[使用整体控制器]: https://blog.irember.com/source/images/2018/07/AngularJS-高级程序设计/05.jpg "使用整体控制器"
-[创建同一个控制器的多个实例]: https://blog.irember.com/source/images/2018/07/AngularJS-高级程序设计/06.jpg "创建同一个控制器的多个实例"
-[在使用多个控制器时作用域的层级结构]: https://blog.irember.com/source/images/2018/07/AngularJS-高级程序设计/07.jpg "在使用多个控制器时作用域的层级结构"
-[在使用子控制器时的作用域层次结构]: https://blog.irember.com/source/images/2018/07/AngularJS-高级程序设计/08.jpg "在使用子控制器时的作用域层次结构"
-[当独立使用控制器时的作用域层次结构]: https://blog.irember.com/source/images/2018/07/AngularJS-高级程序设计/09.jpg "当独立使用控制器时的作用域层次结构"
-[在控制器作用域上运行的指令的多个实例]: https://blog.irember.com/source/images/2018/07/AngularJS-高级程序设计/10.jpg "在控制器作用域上运行的指令的多个实例"
-[为指令的每个实例创建控制器的效果]: https://blog.irember.com/source/images/2018/07/AngularJS-高级程序设计/11.jpg "为指令的每个实例创建控制器的效果"
-[在单个控制器中为指令的每个实例赋予其自己的作用域]: https://blog.irember.com/source/images/2018/07/AngularJS-高级程序设计/12.jpg "在单个控制器中为指令的每个实例赋予其自己的作用域"
-[隔离的作用域的效果]: https://blog.irember.com/source/images/2018/07/AngularJS-高级程序设计/13.jpg "隔离的作用域的效果"
+[MVC模式的服务器端实现]: /_posts/note/.markdown/2018-N04_AngularJS-高级程序设计/images/02.jpg "MVC模式的服务器端实现"
+[MVC模式的AngularJS实现]: /_posts/note/.markdown/2018-N04_AngularJS-高级程序设计/images/03.jpg "MVC模式的AngularJS实现"
+[购物车基本流程]: /_posts/note/.markdown/2018-N04_AngularJS-高级程序设计/images/04.jpg "购物车基本流程"
+[使用整体控制器]: /_posts/note/.markdown/2018-N04_AngularJS-高级程序设计/images/05.jpg "使用整体控制器"
+[创建同一个控制器的多个实例]: /_posts/note/.markdown/2018-N04_AngularJS-高级程序设计/images/06.jpg "创建同一个控制器的多个实例"
+[在使用多个控制器时作用域的层级结构]: /_posts/note/.markdown/2018-N04_AngularJS-高级程序设计/images/07.jpg "在使用多个控制器时作用域的层级结构"
+[在使用子控制器时的作用域层次结构]: /_posts/note/.markdown/2018-N04_AngularJS-高级程序设计/images/08.jpg "在使用子控制器时的作用域层次结构"
+[当独立使用控制器时的作用域层次结构]: /_posts/note/.markdown/2018-N04_AngularJS-高级程序设计/images/09.jpg "当独立使用控制器时的作用域层次结构"
+[在控制器作用域上运行的指令的多个实例]: /_posts/note/.markdown/2018-N04_AngularJS-高级程序设计/images/10.jpg "在控制器作用域上运行的指令的多个实例"
+[为指令的每个实例创建控制器的效果]: /_posts/note/.markdown/2018-N04_AngularJS-高级程序设计/images/11.jpg "为指令的每个实例创建控制器的效果"
+[在单个控制器中为指令的每个实例赋予其自己的作用域]: /_posts/note/.markdown/2018-N04_AngularJS-高级程序设计/images/12.jpg "在单个控制器中为指令的每个实例赋予其自己的作用域"
+[隔离的作用域的效果]: /_posts/note/.markdown/2018-N04_AngularJS-高级程序设计/images/13.jpg "隔离的作用域的效果"
+[在隔离作用域上的单项数据绑定]: /_posts/note/.markdown/2018-N04_AngularJS-高级程序设计/images/14.jpg "在隔离作用域上的单项数据绑定"
 <!-- files -->

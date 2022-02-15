@@ -136,7 +136,8 @@
 
 ## 测试 CSS 特性的支持情况
 
-[Can I use](http://caniuse.com/) [Modernizr](http://modernizr.com/)
+[Can I use][]
+[Modernizr][]
 
 ## 有用的 CSS 工具
 
@@ -1001,7 +1002,7 @@ datalist 元素介绍
 
 | 属性     | 说明                                                         |
 | :------- | :----------------------------------------------------------- |
-| accept   | 指定接受的 MIME 类型。关于 MIME 类型的定义， 参见 [RFC 2046](https://tools.ietf.org/.html/rfc2046) |
+| accept   | 指定接受的 MIME 类型。关于 MIME 类型的定义， 参见 [RFC 2046][] |
 | multiple | 设置这个属性的 input 元素可以一次上传多个文件                |
 | required | 表示用户必须提供一个值                                       |
 
@@ -4451,6 +4452,9 @@ FALLBACK:
 应用更新 调用 swapCache () 方法
 
 <!-- links -->
+[Can I use]: http://caniuse.com/
+[Modernizr]: http://modernizr.com/
+[RFC 2046]: https://tools.ietf.org/.html/rfc2046
 <!-- images -->
 [Logo]: /_posts/note/.markdown/2017-N06_HTML5-权威指南/images/01.jpg "HTML5-权威指南"
 <!-- files -->

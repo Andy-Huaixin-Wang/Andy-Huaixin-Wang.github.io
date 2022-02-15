@@ -3,6 +3,6 @@
     "less.compile": {
         "compress": false,
         "sourceMap": false,
-        "out": "${workspaceRoot}\/source\/css\/"
+        "out": "${workspaceRoot}\/resources\/css\/"
     }
 }

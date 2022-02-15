@@ -370,10 +370,6 @@ aInfo.LegNumber = 4;
 
 ## 三斜线指令
 
-## Source code
-
-[Practice][]
-
 ## DefinitelyTyped
 
 要在 TypeScript 中使用一些常用的 JavaScript 库，必须下载相应 JavaScript 库的 [DefinitelyTyped][] 版本(.d.ts)，并使用三斜线指令引入
@@ -389,4 +385,3 @@ aInfo.LegNumber = 4;
 <!-- images -->
 [Logo]: /_posts/note/.markdown/2017-N04_TypeScript/images/01.png "TypeScript"
 <!-- files -->
-[Practice]: /source/code/TypeScript/Practice.zip "Practice.zip"

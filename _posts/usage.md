@@ -57,7 +57,7 @@
 <p class="time">time</p>
 <p class="author">—— author</p>
 ```
-    
+
 # links
 
 <!-- links -->
@@ -70,7 +70,7 @@
 
 ```html
 <a href="javascript: window.history.back();" target="_self" title="返回">
-    <img src="/source/images/back.svg" alt="back" class="back-button">
+    <img src="/resources/images/back.svg" alt="back" class="back-button">
 </a>
 ```
 
@@ -78,6 +78,6 @@
 
 ```html
 <a href="Index.png" target="_blank" title="下载" download="Index.png">
-    <img src="/source/images/download.svg" alt="download" class="download-button">
+    <img src="/resources/images/download.svg" alt="download" class="download-button">
 </a>
 ```
