@@ -2,6 +2,14 @@
     "life": [],
     "note": [
         {
+            "name": "MediaWiki-安装",
+            "year": 2022,
+            "date": "05.10",
+            "type": "markdown",
+            "download": "",
+            "path": "/_posts/note/.markdown/2022-N01_MediaWiki-安装/MediaWiki-安装.md"
+        },
+        {
             "name": "SQL-Server-发布订阅",
             "year": 2020,
             "date": "02.12",

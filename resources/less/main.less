@@ -73,6 +73,14 @@ a {
     cursor         : pointer;
     text-decoration: none;
     border-bottom  : solid 0.9px var(--content-color);
+
+    &[target="_blank"] {
+        background-image: url(/resources/images/external.svg);
+        background-repeat: no-repeat;
+        background-position: center right;
+        padding-right: 1em;
+        background-size: auto 70%;
+    }
 }
 
 .page-background {
@@ -663,8 +671,10 @@ a {
 :root {
     --markdown-blockquote-background-color                  : rgba(61, 153, 245, 0.1);
     --markdown-blockquote-border-left-color                 : rgba(61, 153, 245, 0.5);
-    --markdown-code-color                                   : rgba(220, 220, 220, 1);
-    --markdown-code-background-color                        : rgba(49, 49, 49, 1);
+    --markdown-code-color                                   : rgba(49, 49, 49, 1);
+    --markdown-code-background-color                        : rgba(49, 49, 49, 0.2);
+    --markdown-code-block-color                             : rgba(220, 220, 220, 1);
+    --markdown-code-block-background-color                  : rgba(49, 49, 49, 1);
     --markdown-table-border-color                           : rgba(145, 160, 179, 0.9);
     --markdown-table-thead-background-color                 : rgba(145, 160, 179, 0.5);
     --markdown-table-tbody-background-color                 : rgba(145, 160, 179, 0.1);
@@ -749,11 +759,17 @@ a {
     code {
         --markdown-font-size-param: 0.3em;
 
-        font-size       : calc(var(--markdown-h1-font-size) - var(--markdown-font-size-param));
         color           : var(--markdown-code-color);
         background-color: var(--markdown-code-background-color);
+        
+        font-size       : calc(var(--markdown-h1-font-size) - var(--markdown-font-size-param));
         padding         : 0.2em 0.25em;
         border-radius   : 0.2em;
+
+        &[class]{
+            color           : var(--markdown-code-block-color);
+            background-color: var(--markdown-code-block-background-color);
+        }
     }
 
     pre {

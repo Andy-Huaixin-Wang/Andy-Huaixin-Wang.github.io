@@ -6,6 +6,14 @@ h3 {
   font-size: 1em;
 }
 
+a[target="_blank"] {
+  background-image: unset;
+  background-repeat: unset;
+  background-position: unset;
+  padding-right: unset;
+  background-size: unset;
+}
+
 .no-text-indent {
   text-indent: unset !important;
 }
